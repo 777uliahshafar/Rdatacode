@@ -1,0 +1,8 @@
+*.pdf
+*.xlsx
+*.Rout
+*.swp
+*.swo
+*.RData
+*.Rhistory
+.DS_Store
