@@ -1,4 +1,4 @@
-setwd("~/Documents/Magister/project files/proposalTesis/dataset")
+setwd("~/Documents/Rdatacode")
 getwd()
 df <- read.table("descriptiveCSV.csv", sep = ";", header = TRUE)
 
@@ -185,7 +185,7 @@ ggplot(
   theme_void() +
   theme(legend.position = "FALSE") # remove legend
 
-# Changing Numeric Variabel to Categorical
+## Changing Numeric Variabel to Categorical
 
 CatUsia <- cut(df$Usia, breaks = c(5, 11, 25, 45, 65), labels = c("anak-anak", "remaja", "dewasa", "lansia"), right = T)
 CatUsia
@@ -223,4 +223,3 @@ ggplot(
     color = "white"
   ) +
   theme_void()
-

@@ -1,4 +1,4 @@
-setwd("~/Documents/Magister/project files/proposalTesis/dataset")
+setwd("~/Documents/Rdatacode")
 getwd()
 
 data <- read.table("dataset_tes1.csv", sep = ";", header = TRUE)
@@ -6,7 +6,6 @@ data <- read.table("dataset_tes1.csv", sep = ";", header = TRUE)
 library(colorout)
 head(data)
 str(data)
-
 
 
 # Regresi Linear Sederhana
