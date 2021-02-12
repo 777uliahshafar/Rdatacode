@@ -2,6 +2,7 @@ setwd("~/Documents/Rdatacode")
 getwd()
 df <- read.table("descriptiveCSV.csv", sep = ";", header = TRUE)
 
+library(colorout)
 head(df$Pekerjaan)
 head(df$Usia)
 
@@ -80,7 +81,7 @@ ggplot(
   coord_flip() +
   ggtitle("Pekerjaan")
 
-# PIE CHART UNIVARIATE CATEGORICAL
+# Piechart univariate categorical
 ## Simple PieChart
 ggplot(
   data = df,
@@ -120,7 +121,7 @@ ggplot(
   theme_void()
 
 
-## Pie Chart With Percent
+## Adding Percent to Piechart Pekerjaan
 plotdata <- df %>%
   count(Pekerjaan) %>%
   arrange(desc(Pekerjaan)) %>%
@@ -151,8 +152,11 @@ ggplot(
   theme_void()
 
 
-## Pie Chart Changing Color
-myclrs <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF")
+## Adding Color to Piechart Pekerjaan
+### change color manually
+# myclrs <- c("#CC6666", "#9999CC", "#66CC99", "#0073C2FF")
+
+library(RColorBrewer)
 
 plotdata <- df %>%
   count(Pekerjaan) %>%
@@ -181,11 +185,13 @@ ggplot(
     ),
     color = "white"
   ) +
-  scale_fill_manual(values = myclrs) + # change color
+  #  scale_fill_manual(values = myclrs) + # add color manually
+  scale_fill_brewer(palette = "Set2") +
   theme_void() +
   theme(legend.position = "FALSE") # remove legend
 
-## Changing Numeric Variabel to Categorical
+# PieChart Usia
+## Changing Numeric Variabel to Categorical(factor)
 
 CatUsia <- cut(df$Usia, breaks = c(5, 11, 25, 45, 65), labels = c("anak-anak", "remaja", "dewasa", "lansia"), right = T)
 CatUsia
@@ -222,4 +228,5 @@ ggplot(
     ),
     color = "white"
   ) +
+  scale_fill_brewer(palette = "Set2") + # add color
   theme_void()
