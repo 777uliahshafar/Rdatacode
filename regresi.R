@@ -13,12 +13,27 @@ df
 head(df)
 str(df)
 
+# Change value for regression
+## Label ordered factor to numerical value
+df$ElemenJalan <- factor(df$ElemenJalan, levels = c("buruk", "baik", "sangat baik"), labels = c(1, 2, 3), ordered = T)
+unclass(df$ElemenJalan)
+head(df$ElemenJalan)
+table(df$ElemenJalan)
+
+str(df$ElemenJalan)
+
+df$ElemenAlami <- factor(df$ElemenAlami, levels = c("buruk", "baik", "sangat baik"), labels = c(1, 2, 3), ordered = T)
+str(df$ElemenAlami)
 
 
+## Convert Qualitative Ordered Factor to Numerical
+df$ElemenJalan <- as.numeric(as.character(df$ElemenJalan))
+df$ElemenAlami <- as.numeric(as.character(df$ElemenAlami))
 
+head(df$ElemenAlami)
+str(df$ElemenAlami)
 
-
-## Regresi Linear Sederhana
+# Regresi Linear Sederhana
 out <- lm(df$ElemenAlami ~ df$ElemenJalan, data = df)
 summary(out)$r.square
 summary(out)
@@ -37,7 +52,7 @@ abline(lm(df$ElemenAlami ~ df$ElemenJalan))
 
 head(data)
 
-## Regresi Linear Berganda
+# Regresi Linear Berganda
 reg1 <- lm(data$ElemenAlami ~ data$ElemenJalan + data$KualitasJalan + data$ElemenDuduk, data = data)
 
 summary(reg1)
