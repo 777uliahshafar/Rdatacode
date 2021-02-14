@@ -66,7 +66,7 @@ y <- y %>%
 data2 <- cbind(x, y)
 head(data2)
 
-## Sum up sequence of column
+## Or Sum up sequence of column
 x %>% mutate(total_fit = rowSums(.[2:4]))
 
 #
@@ -86,12 +86,12 @@ df$residual <- round(residuals(out), 0)
 head(data2)
 
 plot(data2$total_fit, data2$total_akt, col = 4, xlab = "Fitur Binaan", ylab = "Aktivitas")
-abline(lm(data2$total_akt ~ data2$total_fit))
+abline(lm(data2$total_akt ~ data2$total_fit), col = 4)
 
-head(data)
+head(data2)
 
 # Regresi Linear Berganda
-reg1 <- lm(data$ElemenAlami ~ data$ElemenJalan + data$KualitasJalan + data$ElemenDuduk, data = data)
+reg1 <- lm(data2$AktivitasTravel ~ data2$ElemenJalan + data2$ElemenDuduk + data2$ElemenAlami, data = data2)
 
 summary(reg1)
 anova(reg1)
