@@ -1,115 +1,175 @@
-setwd("~/Documents/Rdatacode")
+setwd("/Volumes/hdd/analisis")
 getwd()
 df <- read.table("descriptiveCSV.csv", sep = ";", header = TRUE)
-
 library(colorout)
-head(df$Pekerjaan)
-head(df$Usia)
+head(df$pekerjaan)
+head(df$usia)
+head(df$ruang)
 
 class(df$Pekerjaan)
 class(df$Usia)
 
-df$Pekerjaan <- as.factor(df$Pekerjaan)
+df$pekerjaan <- as.factor(df$pekerjaan)
+df$ruang <- as.factor(df$ruang)
+library(ggplot2)
+
+# gruped bar with percentage label
+ggplot(data = df, aes(
+  x = pekerjaan,
+  y = prop.table(stat(count)),
+  fill = ruang,
+  label = scales::percent(prop.table(stat(count)))
+)) +
+  geom_bar(position = "dodge") +
+  geom_text(
+    stat = "count",
+    position = position_dodge(.9),
+    vjust = -0.5,
+    size = 3
+  ) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = "pekerjaan", y = "pct", fill = "ruang")
+
+# groupped bar without pct label
+ggplot(data = df, aes(
+  x = pekerjaan,
+  y = prop.table(stat(count)),
+  fill = ruang,
+  label = scales::percent(prop.table(stat(count)))
+)) +
+  geom_bar(position = "dodge") +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_manual(values = mycols) +
+  labs(x = "pekerjaan", y = "pct", fill = "ruang")
+
+# other form of groupped bar
+ggplot(df, aes(x = pekerjaan, fill = ruang)) +
+  geom_bar(aes(y = (..count..) / sum(..count..))) +
+  scale_y_continuous(labels = scales::percent)
+
+# bar
+ggplot(data = df, aes(
+  x = ruang,
+  y = prop.table(stat(count)),
+  fill = ruang,
+  label = scales::percent(prop.table(stat(count)))
+)) +
+  geom_bar(position = "dodge", width = 0.5) +
+  scale_fill_manual(values = mycols) +
+  geom_text(
+    stat = "count",
+    position = position_dodge(.9),
+    vjust = -0.5,
+    size = 3
+  ) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = "ruang", y = "pct") +
+  theme(legend.position = "none") +
+  theme_minimal()
 
 barplot(
-  names = df$Pekerjaan,
+  names = df$pekerjaan,
   height = df$Usia,
   col = "skyblue",
   main = "Hello World",
-  xlab = "Pekerjaan",
+  xlab = "pekerjaan",
   ylab = "Usia"
 )
 
 library(lattice)
 dotplot(
-  x = Usia ~ Pekerjaan,
+  x = Usia ~ pekerjaan,
   data = df,
   main = "Hello World",
-  xlab = "Pekerjaan",
+  xlab = "pekerjaan",
   ylab = "Usia"
 )
 
 library(ggplot2)
 ggplot(
   data = df,
-  aes(x = Pekerjaan, y = Usia)
+  aes(x = pekerjaan, y = Usia)
 ) +
   geom_point() +
   ggtitle("Hello World") +
-  xlab("Pekerjaan") +
+  xlab("pekerjaan") +
   ylab("Usia")
 
 ggplot(
   data = df,
-  aes(x = Pekerjaan, y = Usia)
+  aes(x = pekerjaan, y = Usia)
 ) +
   geom_bar(
     stat = "identity",
     fill = "skyblue"
   ) +
   ggtitle("Hello World") +
-  xlab("Pekerjaan") +
+  xlab("pekerjaan") +
   ylab("Usia")
 
 # Univariate Qualitative Bar Charts
 ggplot(
   data = df,
-  aes(x = Pekerjaan)
+  aes(x = pekerjaan)
 ) +
   geom_bar(
     fill = "skyblue"
   ) +
-  ggtitle("Pekerjaan")
+  ggtitle("pekerjaan")
 
 # Univariate Qualitative Bar Charts Horizontal
 ggplot(
   data = df,
-  aes(x = Pekerjaan)
+  aes(x = pekerjaan)
 ) +
   geom_bar(
     fill = "skyblue"
   ) +
   coord_flip() +
-  ggtitle("Pekerjaan")
+  ggtitle("pekerjaan")
 
 # Create cleveland dot plot
 ggplot(
   data = df,
-  aes(x = Pekerjaan)
+  aes(x = pekerjaan)
 ) +
   geom_point(stat = "count") +
   coord_flip() +
-  ggtitle("Pekerjaan")
+  ggtitle("pekerjaan")
 
 # Piechart univariate categorical
+
 ## Simple PieChart
 ggplot(
   data = df,
-  aes(x = "", fill = Pekerjaan)
+  aes(x = "", fill = pekerjaan)
 ) +
   geom_bar() +
   coord_polar(theta = "y") +
-  ggtitle("Pekerjaan") +
+  ggtitle("pekerjaan") +
   ylab("")
 
-## Fair Piechart
+## Moderate Piechart
 library(scales)
 library(dplyr)
-df
+
 plotdata <- df %>%
-  count(Pekerjaan) %>%
-  arrange(desc(Pekerjaan)) %>%
+  count(pekerjaan) %>%
+  arrange(desc(pekerjaan)) %>%
   mutate(
     prop = round(n * 100 / sum(n), 1),
     lab.ypos = cumsum(prop) - 0.5 * prop
   )
 head(plotdata)
 
+### Change color fill
+mycols <- c("#003f5c", "#007274", "#649f68", "#e1be6a")
+
 ggplot(
   data = plotdata,
-  aes(x = "", y = prop, fill = Pekerjaan)
+  aes(x = "", y = prop, fill = pekerjaan)
 ) +
-  ggtitle("Pekerjaan") +
+  ggtitle("pekerjaan") +
   geom_bar(width = 1, stat = "identity", color = "white") +
   coord_polar("y", start = 0) +
   geom_text(
@@ -118,13 +178,14 @@ ggplot(
     ),
     color = "white"
   ) +
+  scale_fill_manual(values = mycols) +
   theme_void()
 
 
-## Adding Percent to Piechart Pekerjaan
+## Adding Percent to Piechart pekerjaan
 plotdata <- df %>%
-  count(Pekerjaan) %>%
-  arrange(desc(Pekerjaan)) %>%
+  count(pekerjaan) %>%
+  arrange(desc(pekerjaan)) %>%
   mutate(
     prop = round(n * 100 / sum(n), 1),
     lab.ypos = cumsum(prop) - 0.5 * prop
@@ -132,15 +193,15 @@ plotdata <- df %>%
 head(plotdata)
 
 plotdata$percent <- paste0(
-  plotdata$Pekerjaan, "\n",
+  plotdata$pekerjaan, "\n",
   round(plotdata$prop), "%"
 )
 
 ggplot(
   data = plotdata,
-  aes(x = "", y = prop, fill = Pekerjaan)
+  aes(x = "", y = prop, fill = pekerjaan)
 ) +
-  ggtitle("Pekerjaan") +
+  ggtitle("pekerjaan") +
   geom_bar(width = 1, stat = "identity", color = "white") +
   coord_polar(theta = "y", start = 0) +
   geom_text(
@@ -159,8 +220,8 @@ ggplot(
 library(RColorBrewer)
 
 plotdata <- df %>%
-  count(Pekerjaan) %>%
-  arrange(desc(Pekerjaan)) %>%
+  count(pekerjaan) %>%
+  arrange(desc(pekerjaan)) %>%
   mutate(
     prop = round(n * 100 / sum(n), 1),
     lab.ypos = cumsum(prop) - 0.5 * prop
@@ -168,15 +229,15 @@ plotdata <- df %>%
 head(plotdata)
 
 plotdata$percent <- paste0(
-  plotdata$Pekerjaan, "\n",
+  plotdata$pekerjaan, "\n",
   round(plotdata$prop), "%"
 )
 
 ggplot(
   data = plotdata,
-  aes(x = "", y = prop, fill = Pekerjaan)
+  aes(x = "", y = prop, fill = pekerjaan)
 ) +
-  ggtitle("Pekerjaan") +
+  ggtitle("pekerjaan") +
   geom_bar(width = 1, stat = "identity", color = "white") +
   coord_polar(theta = "y", start = 0) +
   geom_text(
