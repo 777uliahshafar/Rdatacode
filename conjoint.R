@@ -2,11 +2,8 @@ setwd("/Volumes/hdd/analisis")
 getwd()
 df <- read.table("descriptiveCSV.csv", sep = ";", header = TRUE)
 
-install.packages("xlsx")
-
 require(colorout)
 library(conjoint)
-install.packages("readxl")
 library(xlsx)
 
 # Install main package with dependencies
@@ -52,12 +49,12 @@ str(optimal_design)
 data <- read.xlsx("optimal.xlsx", 1, header = TRUE)
 head(data)
 code <- caEncodedDesign(data)
-print(code)
+print(cor(code))
 
 # write.xlsx(code, file = "encoded.xlsx")
 
 # Create sample survey data
-sd <- data.frame(replicate(32, sample(1:100, 100, rep = TRUE)))
+sd <- data.frame(replicate(32, sample(1:10, 100, rep = TRUE)))
 head(sd)
 
 write.xlsx(sd, file = "survey.xlsx")
@@ -67,17 +64,17 @@ mysurvey <- read.xlsx("conjoint data survey.xlsx", 1)
 
 myconj <- read.xlsx("conjoint data survey.xlsx", 2)
 
-lev <- c("banyak", "beberapa", "sedikit", "cukup", "sangat", ">5warna", "3-4warna", "1-2warna", "<1.5m", ">3m", "2-3m", "aspal", "paving", "tanah", "gazebo", "kursilengkung", "kursipiknik", "kurang", "sedang", "tinggi")
+lev <- c("sedikit", "beberapa", "banyak", "cukup", "sangat", "1-2warna", "3-4warna", ">5warna", "<1.5m", "2-3m", ">3m", "paving", "aspal", "tanah", "kursipiknik", "gazebo", "kursilengkung", "kurang", "sedang", "tinggi")
 
 
-lev_df <- data.frame(lev)
+levdf <- data.frame(lev)
 
-head(lev_df)
+head(levdf)
 
-caModel(y = mysurvey[2, 2:33], x = myconj[, 9:15])
-caUtilities(y = mysurvey[, 2:33], x = myconj[, 9:15], z = lev_df)
+caModel(y = mysurvey[1, 2:33], x = myconj[, 9:15])
+caUtilities(y = mysurvey[, 2:33], x = myconj[, 9:15], z = levdf)
 
-Conjoint(y = mysurvey[, 2:33], x = myconj[, 9:15], z = lev_df)
+Conjoint(y = mysurvey[, 2:33], x = myconj[, 9:15], z = levdf)
 
 
 data(tea)
@@ -85,10 +82,3 @@ head(tprefm)
 
 head(tprof)
 head(tlevn)
-
-
-# Contoh
-write.xlsx(tprefm, file = "tprefm.xlsx")
-write.xlsx(tprof, file = "tprof.xlsx")
-write.xlsx(tlevn, file = "tlevn.xlsx")
-caUtilities(tprefm, tprof, tlevn)
