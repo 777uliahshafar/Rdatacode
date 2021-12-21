@@ -1,0 +1,19 @@
+library(conjoint)
+setwd("/Volumes/hdd/analisis")#
+getwd()
+library(conjoint)
+experiment <- expand.grid(#
+  jumlahphn = c("sedikit", "beberapa", "banyak"),#
+  bentukphn = c("cukup", "sangat"),#
+  warnabunga = c("1-2warna", "3-4warna", ">5warna"),#
+  lebarjln = c("<1.5m", "2-3m", ">3m"),#
+  permukaanjln = c("paving", "aspal", "tanah"),#
+  jeniskrs = c("kursipiknik", "gazebo", "kursilengkung"),#
+  cahayajln = c("kurang", "sedang", "tinggi")#
+)#
+#
+ortho <- caFactorialDesign(data = experiment, type = "orthogonal")#
+print(ortho)
+print(ortho)
+ortho <- caFactorialDesign(data = experiment, type = "orthogonal")
+ortho <- caFactorialDesign(data = experiment, type = "orthogonal")

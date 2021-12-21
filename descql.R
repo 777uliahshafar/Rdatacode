@@ -5,7 +5,7 @@ library(colorout)
 head(df$pekerjaan)
 head(df$usia)
 head(df$ruang)
-
+head(df$y1)
 class(df$Pekerjaan)
 class(df$Usia)
 
