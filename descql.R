@@ -1,7 +1,7 @@
 setwd("/Volumes/hdd/analisis")
 getwd()
 df <- read.table("descriptiveCSV.csv", sep = ";", header = TRUE)
-library(colorout)
+require(colorout)
 head(df$pekerjaan)
 head(df$usia)
 head(df$ruang)

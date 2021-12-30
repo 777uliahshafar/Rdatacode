@@ -40,7 +40,7 @@ experiment <- expand.grid(
 
 library(AlgDesign)
 set.seed(69)
-optimal_design <- optFederov(~., data = experiment, nTrials = 32)
+optimal_design <- optFederov(~., data = experiment, nTrials = 22)
 print(optimal_design)
 str(optimal_design)
 
@@ -50,6 +50,7 @@ data <- read.xlsx("optimal.xlsx", 1, header = TRUE)
 head(data)
 code <- caEncodedDesign(data)
 print(cor(code))
+head(code)
 
 # write.xlsx(code, file = "encoded.xlsx")
 

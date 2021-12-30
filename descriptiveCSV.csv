@@ -1,32 +1,32 @@
-﻿gender ; usia ; pekerjaan ; ruang ; aspek         ; y1 ; y2 ; y3 ; y4 ; y5 ; y6 ; y7
-  pria ; 19   ; swasta    ; b     ; keamanan      ; 3  ; 2  ; 3  ; 2  ; 1  ; 2  ; 3
-wanita ; 20   ; swasta    ; b     ; fasilitas     ; 2  ; 2  ; 1  ; 1  ; 2  ; 2  ; 2
-  pria ; 20   ; mahasiswa ; a     ; fasilitas     ; 1  ; 2  ; 1  ; 3  ; 3  ; 3  ; 1
-wanita ; 34   ; pns       ; a     ; keamanan      ; 3  ; 1  ; 3  ; 2  ; 3  ; 1  ; 3
-  pria ; 45   ; lainnya   ; b     ; keamanan      ; 2  ; 3  ; 2  ; 2  ; 3  ; 2  ; 3
-  pria ; 49   ; pns       ; b     ; fasilitas     ; 1  ; 3  ; 1  ; 1  ; 2  ; 1  ; 2
-  pria ; 22   ; mahasiswa ; b     ; aksesibilitas ; 2  ; 2  ; 1  ; 3  ; 1  ; 1  ; 1
-  pria ; 39   ; pns       ; b     ; aksesibilitas ; 3  ; 2  ; 3  ; 2  ; 1  ; 3  ; 2
-wanita ; 29   ; lainnya   ; a     ; estetika      ; 2  ; 3  ; 3  ; 3  ; 3  ; 2  ; 1
-wanita ; 41   ; pns       ; a     ; aksesibilitas ; 2  ; 2  ; 2  ; 2  ; 3  ; 2  ; 3
-  pria ; 47   ; pns       ; b     ; estetika      ; 3  ; 2  ; 2  ; 3  ; 3  ; 3  ; 3
-  pria ; 20   ; pns       ; b     ; aksesibilitas ; 3  ; 2  ; 3  ; 1  ; 2  ; 1  ; 2
-  pria ; 23   ; lainnya   ; b     ; keamanan      ; 2  ; 2  ; 3  ; 1  ; 1  ; 1  ; 1
-  pria ; 37   ; swasta    ; b     ; fasilitas     ; 2  ; 3  ; 1  ; 1  ; 1  ; 3  ; 1
-wanita ; 29   ; swasta    ; b     ; fasilitas     ; 1  ; 1  ; 2  ; 3  ; 2  ; 2  ; 1
-  pria ; 31   ; swasta    ; b     ; fasilitas     ; 3  ; 2  ; 1  ; 2  ; 2  ; 3  ; 2
-  pria ; 33   ; lainnya   ; b     ; estetika      ; 2  ; 1  ; 3  ; 1  ; 3  ; 1  ; 3
-  pria ; 55   ; lainnya   ; a     ; fasilitas     ; 1  ; 1  ; 2  ; 2  ; 3  ; 2  ; 2
-wanita ; 34   ; swasta    ; a     ; estetika      ; 1  ; 1  ; 2  ; 2  ; 3  ; 3  ; 2
-  pria ; 38   ; pns       ; b     ; keamanan      ; 3  ; 3  ; 2  ; 3  ; 3  ; 1  ; 3
-  pria ; 19   ; mahasiswa ; a     ; estetika      ; 2  ; 3  ; 1  ; 1  ; 1  ; 2  ; 3
-  pria ; 22   ; mahasiswa ; b     ; aksesibilitas ; 1  ; 2  ; 1  ; 3  ; 2  ; 3  ; 3
-wanita ; 34   ; swasta    ; a     ; aksesibilitas ; 1  ; 2  ; 3  ; 2  ; 2  ; 2  ; 1
-wanita ; 39   ; swasta    ; b     ; keamanan      ; 1  ; 2  ; 3  ; 1  ; 1  ; 3  ; 2
-wanita ; 23   ; mahasiswa ; b     ; keamanan      ; 3  ; 2  ; 2  ; 1  ; 1  ; 3  ; 2
-wanita ; 40   ; swasta    ; a     ; estetika      ; 2  ; 3  ; 1  ; 3  ; 3  ; 1  ; 3
-wanita ; 15   ; lainnya   ; a     ; fasilitas     ; 1  ; 1  ; 3  ; 2  ; 1  ; 1  ; 2
-  pria ; 24   ; lainnya   ; a     ; keamanan      ; 3  ; 3  ; 1  ; 2  ; 2  ; 3  ; 1
-  pria ; 29   ; pns       ; b     ; fasilitas     ; 3  ; 2  ; 2  ; 1  ; 3  ; 2  ; 3
-  pria ; 28   ; swasta    ; b     ; keamanan      ; 2  ; 2  ; 2  ; 1  ; 2  ; 2  ; 1
-  pria ; 35   ; swasta    ; b     ; aksesibilitas ; 2  ; 1  ; 3  ; 3  ; 2  ; 3  ; 1
+﻿gender ; suku     ; usia ; pekerjaan ; ruang   ; aspek
+  pria ; bugis    ; 19   ; swasta    ; ruang b ; keamanan
+wanita ; bugis    ; 20   ; swasta    ; ruang b ; fasilitas
+  pria ; bugis    ; 20   ; mahasiswa ; ruang a ; fasilitas
+wanita ; bugis    ; 34   ; pns       ; ruang a ; keamanan
+  pria ; toraja   ; 45   ; lainnya   ; ruang b ; keamanan
+  pria ; makassar ; 49   ; pns       ; ruang b ; fasilitas
+  pria ; makassar ; 22   ; mahasiswa ; ruang b ; aksesibilitas
+  pria ; bugis    ; 39   ; pns       ; ruang b ; aksesibilitas
+wanita ; toraja   ; 29   ; lainnya   ; ruang a ; estetika
+wanita ; bugis    ; 41   ; pns       ; ruang a ; aksesibilitas
+  pria ; bugis    ; 47   ; pns       ; ruang b ; estetika
+  pria ; makassar ; 20   ; pns       ; ruang b ; aksesibilitas
+  pria ; toraja   ; 23   ; lainnya   ; ruang b ; keamanan
+  pria ; bugis    ; 37   ; swasta    ; ruang b ; fasilitas
+wanita ; bugis    ; 29   ; swasta    ; ruang b ; fasilitas
+  pria ; bugis    ; 31   ; swasta    ; ruang b ; fasilitas
+  pria ; toraja   ; 33   ; lainnya   ; ruang b ; estetika
+  pria ; bugis    ; 55   ; lainnya   ; ruang a ; fasilitas
+wanita ; makassar ; 34   ; swasta    ; ruang a ; estetika
+  pria ; bugis    ; 38   ; pns       ; ruang b ; keamanan
+  pria ; makassar ; 19   ; mahasiswa ; ruang a ; estetika
+  pria ; toraja   ; 22   ; mahasiswa ; ruang b ; aksesibilitas
+wanita ; bugis    ; 34   ; swasta    ; ruang a ; aksesibilitas
+wanita ; bugis    ; 39   ; swasta    ; ruang b ; keamanan
+wanita ; toraja   ; 23   ; mahasiswa ; ruang b ; keamanan
+wanita ; bugis    ; 40   ; swasta    ; ruang a ; estetika
+wanita ; toraja   ; 15   ; lainnya   ; ruang a ; fasilitas
+  pria ; toraja   ; 24   ; lainnya   ; ruang a ; keamanan
+  pria ; makassar ; 29   ; pns       ; ruang b ; fasilitas
+  pria ; makassar ; 28   ; swasta    ; ruang b ; keamanan
+  pria ; bugis    ; 35   ; swasta    ; ruang b ; aksesibilitas
