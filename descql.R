@@ -9,6 +9,8 @@ head(df$y1)
 class(df$Pekerjaan)
 class(df$Usia)
 
+sp <- split(df,df$gender)
+str(sp)
 df$pekerjaan <- as.factor(df$pekerjaan)
 df$ruang <- as.factor(df$ruang)
 library(ggplot2)
