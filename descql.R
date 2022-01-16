@@ -9,11 +9,13 @@ head(df$y1)
 class(df$Pekerjaan)
 class(df$Usia)
 
-sp <- split(df,df$gender)
-str(sp)
+spr <- split(df, df$suku)
+str(spr)
 df$pekerjaan <- as.factor(df$pekerjaan)
 df$ruang <- as.factor(df$ruang)
 library(ggplot2)
+
+
 
 # gruped bar with percentage label
 ggplot(data = df, aes(
@@ -256,12 +258,12 @@ ggplot(
 # PieChart Usia
 ## Changing Numeric Variabel to Categorical(factor)
 
-CatUsia <- cut(df$Usia, breaks = c(5, 11, 25, 45, 65), labels = c("anak-anak", "remaja", "dewasa", "lansia"), right = T)
-CatUsia
+catUsia <- cut(df$usia, breaks = c(5, 11, 25, 45, 65), labels = c("anak-anak", "remaja", "dewasa", "lansia"), right = T)
+catUsia
 
-class(CatUsia)
+class(catUsia)
 
-df$CatUsia <- CatUsia
+df$catUsia <- catUsia
 
 head(df)
 plotusia <- df %>%
@@ -292,4 +294,39 @@ ggplot(
     color = "white"
   ) +
   scale_fill_brewer(palette = "Set2") + # add color
+  theme_void()
+
+# PieChart Ruang
+
+df$ruang <- as.factor(df$ruang)
+
+
+
+plotdata <- df %>%
+  count(ruang) %>%
+  arrange(desc(ruang)) %>%
+  mutate(
+    prop = round(n * 100 / sum(n), 1),
+    lab.ypos = cumsum(prop) - 0.5 * prop
+  )
+
+plotdata$percent <- paste0(
+  plotdata$ruang, "\n",
+  round(plotdata$prop), "%"
+)
+
+ggplot(
+  data = plotdata,
+  aes(x = "", y = prop, fill = ruang)
+) +
+  ggtitle("Ruang") +
+  geom_bar(width = 1, stat = "identity", color = "white") +
+  coord_polar(theta = "y", start = 0) +
+  geom_text(
+    aes(
+      y = lab.ypos, label = percent
+    ),
+    color = "white"
+  ) +
+  scale_fill_manual(values = mycols) +
   theme_void()

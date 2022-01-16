@@ -10,7 +10,7 @@ str(sample2)
 
 sample3 <- sample(c("karyawan", "wiraswasta", "pelajar", "belum bekerja", "lainnya"), 80, replace = TRUE, prob = c(.39, .18, .22, .07, .14))
 
-sample4 <- sample(c("ruang a", "ruang b"), 80, replace = TRUE, prob = c(.59, .41))
+sample4 <- sample(c("ruang a", "ruang b"), 19, replace = TRUE, prob = c(.68, .32))
 
 
 samplea <- sample(c("estetika", "fasilitas", "aksessibilitas", "keamanan"), 47, replace = TRUE, prob = c(.41, .25, .12, .22))

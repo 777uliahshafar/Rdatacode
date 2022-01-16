@@ -9,19 +9,23 @@ str(df)
 df$gender
 df$ruang
 
-table(df$gender)
+ct <- table(df$gender, df$ruang)
+chisq.test(ct)
 
 # crosstab sederhana
-crosstabs <- xtabs(~ gender + ruang, data = df)
+crosstabs <- xtabs(~ ruang + gender, data = df)
 
-## cross tabulation countr to proportion by row
-prop.table(crosstabs, 1)
+## get proportion accros row
+prop.table(crosstabs, margin = 1)
+
+## get proportion accros columns
+prop.table(crosstabs, margin = 2)
 
 ## cross tabulation countr to percentages by column
-100 * prop.table(crosstabs, 1)
+100 * prop.table(crosstabs, 2)
 
 ## round to 2 places after the decimal
-round(100 * prop.table(crosstabs, 1), 2)
+ctps_gen <- round(100 * prop.table(crosstabs, 2), 2)
 
 ## Chi-squared test: tell us the difference between two variable
 chisq.test(crosstabs)
@@ -36,17 +40,17 @@ library(descr)
 str(df$ruang)
 str(df$pekerjaan)
 str(df$gender)
-crosstab(df$ruang, df$pekerjaan, xlab = "Ruang", ylab = "Pekerjaan")
+crosstab(df$ruang, df$gender, xlab = "Ruang", ylab = "Gender")
 
-ct_pek <- crosstab(df$ruang, df$pekerjaan, dnn = c("Ruang", "Pekerjaan"), expected = TRUE, prop.c = TRUE, prop.r = TRUE, plot = FALSE)
+ctpsG <- crosstab(df$ruang, df$gender, dnn = c("Ruang", "Gender"), user.missing.dep = "Don't know", expected = FALSE, prop.c = TRUE, prop.r = FALSE, total.r = FALSE, plot = FALSE)
 
-plot(ct_pek, inv.y = TRUE)
+plot(ctpsG, inv.y = TRUE)
 
-tab <- ct_pek$tab
+tab <- ctpsG$tab
 class(tab)
 tab
 
-complete_tab <- descr:::CreateNewTab(ct_pek)
+complete_tab <- descr:::CreateNewTab(ctps_gen)
 class(complete_tab)
 complete_tab
 

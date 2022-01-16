@@ -1,81 +1,86 @@
-﻿gender   ; suku     ; usia ; pekerjaan     ; ruang   ; alasan
-perempuan ; bugis    ; 26   ; karyawan      ; ruang a ; estetika
-laki-laki ; bugis    ; 24   ; wiraswasta    ; ruang a ; fasilitas, estetika
-laki-laki ; bugis    ; 25   ; pelajar       ; ruang a ; estetika
-laki-laki ; bugis    ; 55   ; lainnya       ; ruang a ; estetika
-laki-laki ; bugis    ; 25   ; karyawan      ; ruang a ; estetika
-perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; estetika, fasilitas
-laki-laki ; toraja   ; 25   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; bugis    ; 21   ; belum bekerja ; ruang a ; fasilitas
-laki-laki ; bugis    ; 23   ; belum bekerja ; ruang a ; keamanan
-laki-laki ; bugis    ; 38   ; wiraswasta    ; ruang a ; fasilitas
-laki-laki ; bugis    ; 29   ; wiraswasta    ; ruang b ; keamanan
-laki-laki ; bugis    ; 20   ; pelajar       ; ruang b ; keamanan
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang b ; keamanan
-perempuan ; makassar ; 32   ; wiraswasta    ; ruang b ; aksesibilitas
-laki-laki ; bugis    ; 47   ; wiraswasta    ; ruang b ; keamanan
-laki-laki ; bugis    ; 30   ; karyawan      ; ruang b ; fasilitas
-laki-laki ; bugis    ; 46   ; lainnya       ; ruang b ; fasilitas
-laki-laki ; lainnya  ; 29   ; karyawan      ; ruang a ; keamanan
-laki-laki ; lainnya  ; 20   ; pelajar       ; ruang b ; estetika
-perempuan ; bugis    ; 44   ; wiraswasta    ; ruang a ; fasilitas
-laki-laki ; bugis    ; 42   ; lainnya       ; ruang a ; keamanan
-perempuan ; bugis    ; 21   ; pelajar       ; ruang b ; estetika
-perempuan ; bugis    ; 40   ; wiraswasta    ; ruang a ; aksesibilitas
-laki-laki ; bugis    ; 28   ; karyawan      ; ruang b ; keamanan
-laki-laki ; bugis    ; 35   ; karyawan      ; ruang b ; keamanan
-laki-laki ; bugis    ; 45   ; lainnya       ; ruang b ; fasilitas
-laki-laki ; toraja   ; 18   ; pelajar       ; ruang a ; keamanan
-laki-laki ; makassar ; 33   ; karyawan      ; ruang a ; aksesibilitas
-laki-laki ; bugis    ; 20   ; belum bekerja ; ruang b ; keamanan
-laki-laki ; bugis    ; 45   ; karyawan      ; ruang a ; aksesibilitas
-laki-laki ; bugis    ; 28   ; karyawan      ; ruang b ; keamanan
-laki-laki ; makassar ; 43   ; lainnya       ; ruang b ; keamanan
-perempuan ; toraja   ; 18   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; bugis    ; 35   ; karyawan      ; ruang b ; keamanan
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; estetika
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; makassar ; 45   ; karyawan      ; ruang a ; estetika
-perempuan ; bugis    ; 28   ; karyawan      ; ruang a ; keamanan
-laki-laki ; bugis    ; 23   ; belum bekerja ; ruang b ; keamanan
-perempuan ; toraja   ; 47   ; wiraswasta    ; ruang a ; keamanan
-laki-laki ; bugis    ; 33   ; karyawan      ; ruang b ; estetika
-laki-laki ; bugis    ; 41   ; karyawan      ; ruang a ; aksesibilitas
-laki-laki ; makassar ; 37   ; lainnya       ; ruang a ; estetika
-perempuan ; lainnya  ; 37   ; karyawan      ; ruang b ; keamanan
-perempuan ; bugis    ; 22   ; belum bekerja ; ruang a ; estetika
-perempuan ; makassar ; 46   ; karyawan      ; ruang b ; estetika
-laki-laki ; bugis    ; 34   ; karyawan      ; ruang b ; estetika
-laki-laki ; bugis    ; 25   ; wiraswasta    ; ruang a ; keamanan
-laki-laki ; makassar ; 19   ; pelajar       ; ruang a ; keamanan
-perempuan ; bugis    ; 45   ; karyawan      ; ruang b ; estetika
-perempuan ; bugis    ; 38   ; karyawan      ; ruang a ; fasilitas
-laki-laki ; bugis    ; 40   ; karyawan      ; ruang a ; aksesibilitas
-perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; aksesibilitas
-perempuan ; bugis    ; 40   ; lainnya       ; ruang a ; estetika
-laki-laki ; lainnya  ; 36   ; karyawan      ; ruang a ; estetika
-laki-laki ; lainnya  ; 20   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; bugis    ; 18   ; pelajar       ; ruang b ; fasilitas
-laki-laki ; bugis    ; 44   ; karyawan      ; ruang a ; keamanan
-perempuan ; toraja   ; 21   ; pelajar       ; ruang b ; estetika
-perempuan ; bugis    ; 24   ; belum bekerja ; ruang b ; fasilitas
-perempuan ; bugis    ; 41   ; karyawan      ; ruang a ; aksesibilitas
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang a ; keamanan
-laki-laki ; bugis    ; 21   ; pelajar       ; ruang a ; fasilitas
-laki-laki ; bugis    ; 43   ; lainnya       ; ruang a ; estetika
-perempuan ; lainnya  ; 31   ; karyawan      ; ruang a ; aksesibilitas
-laki-laki ; toraja   ; 45   ; lainnya       ; ruang a ; keamanan
-laki-laki ; bugis    ; 40   ; lainnya       ; ruang a ; keamanan
-laki-laki ; bugis    ; 32   ; karyawan      ; ruang b ; fasilitas
-perempuan ; toraja   ; 48   ; karyawan      ; ruang a ; keamanan
-laki-laki ; lainnya  ; 31   ; wiraswasta    ; ruang a ; fasilitas
-laki-laki ; lainnya  ; 38   ; karyawan      ; ruang a ; estetika
-perempuan ; bugis    ; 29   ; wiraswasta    ; ruang b ; fasilitas
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; aksesibilitas
-laki-laki ; bugis    ; 20   ; pelajar       ; ruang a ; estetika
-perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; estetika
-laki-laki ; toraja   ; 39   ; wiraswasta    ; ruang a ; aksesibilitas
-laki-laki ; lainnya  ; 42   ; lainnya       ; ruang a ; estetika
-perempuan ; bugis    ; 38   ; wiraswasta    ; ruang b ; fasilitas
-perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; estetika
+﻿gender    ; suku     ; usia ; pekerjaan     ; ruang   ; aksesibilitas ; keamanan ; estetika ; fasilitas
+perempuan ; bugis    ; 26   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 24   ; wiraswasta    ; ruang a ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 25   ; pelajar       ; ruang a ; 1             ; 1        ; 0        ; 1
+laki-laki ; bugis    ; 55   ; lainnya       ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 25   ; karyawan      ; ruang a ; 1             ; 1        ; 1        ; 1
+perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; toraja   ; 25   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 21   ; belum bekerja ; ruang a ; 1             ; 0        ; 0        ; 0
+laki-laki ; bugis    ; 23   ; belum bekerja ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 38   ; wiraswasta    ; ruang a ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 29   ; wiraswasta    ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 20   ; pelajar       ; ruang b ; 0             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
+perempuan ; makassar ; 32   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 47   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 30   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 46   ; lainnya       ; ruang b ; 1             ; 0        ; 1        ; 0
+laki-laki ; lainnya  ; 29   ; karyawan      ; ruang b ; 0             ; 0        ; 1        ; 1
+laki-laki ; lainnya  ; 20   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
+perempuan ; bugis    ; 44   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 42   ; lainnya       ; ruang b ; 1             ; 1        ; 1        ; 1
+perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 40   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 28   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 35   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 45   ; lainnya       ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; toraja   ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; makassar ; 33   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 20   ; belum bekerja ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 45   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 28   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; makassar ; 43   ; lainnya       ; ruang b ; 0             ; 0        ; 1        ; 0
+perempuan ; toraja   ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 35   ; karyawan      ; ruang b ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 1             ; 0        ; 0        ; 1
+laki-laki ; makassar ; 45   ; karyawan      ; ruang b ; 0             ; 1        ; 0        ; 1
+perempuan ; bugis    ; 28   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 23   ; belum bekerja ; ruang a ; 0             ; 1        ; 0        ; 1
+perempuan ; toraja   ; 47   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
+laki-laki ; bugis    ; 33   ; karyawan      ; ruang a ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 41   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; makassar ; 37   ; lainnya       ; ruang b ; 1             ; 0        ; 0        ; 1
+perempuan ; lainnya  ; 37   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
+perempuan ; bugis    ; 22   ; belum bekerja ; ruang a ; 0             ; 0        ; 1        ; 0
+perempuan ; makassar ; 46   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 34   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 25   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; makassar ; 19   ; pelajar       ; ruang b ; 1             ; 0        ; 0        ; 0
+perempuan ; bugis    ; 45   ; karyawan      ; ruang a ; 0             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 38   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 0
+laki-laki ; bugis    ; 40   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 40   ; lainnya       ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; lainnya  ; 36   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; lainnya  ; 20   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 18   ; pelajar       ; ruang a ; 1             ; 1        ; 1        ; 0
+laki-laki ; bugis    ; 44   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
+perempuan ; toraja   ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
+perempuan ; bugis    ; 24   ; belum bekerja ; ruang a ; 0             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 41   ; karyawan      ; ruang a ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 21   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 43   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 1
+perempuan ; lainnya  ; 31   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
+laki-laki ; toraja   ; 45   ; lainnya       ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 40   ; lainnya       ; ruang a ; 1             ; 0        ; 1        ; 1
+laki-laki ; bugis    ; 32   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
+perempuan ; toraja   ; 48   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; lainnya  ; 31   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; lainnya  ; 38   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 29   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
+laki-laki ; bugis    ; 20   ; pelajar       ; ruang a ; 1             ; 1        ; 1        ; 0
+perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
+laki-laki ; toraja   ; 39   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
+laki-laki ; lainnya  ; 42   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 0
+perempuan ; bugis    ; 38   ; wiraswasta    ; ruang b ; 0             ; 0        ; 1        ; 1
+perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 43   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 1
+perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 0
+perempuan ; bugis    ; 38   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
+laki-laki ; bugis    ; 29   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
+laki-laki ; lainnya  ; 29   ; karyawan      ; ruang b ; 0             ; 0        ; 1        ; 1
