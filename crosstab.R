@@ -15,6 +15,8 @@ chisq.test(ct)
 # crosstab sederhana
 crosstabs <- xtabs(~ ruang + gender, data = df)
 
+## get total proportion
+prop.table(crosstabs, margin = 1)
 ## get proportion accros row
 prop.table(crosstabs, margin = 1)
 
