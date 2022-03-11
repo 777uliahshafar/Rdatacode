@@ -1,0 +1,13 @@
+install.packages("factoextra")
+
+library(factoextra)
+library(FactoMineR)
+library(gplots)
+
+# Correspondence analysis
+res.ca = CA(biplot[,2:5], graph = TRUE)
+print(res.ca)
+# Create Scree plot
+fviz_screeplot(res.ca, addlabels = TRUE, ylim = c(0, 50))
+# Create symmetric plot of correspondence analysis
+fviz_ca_biplot(res.ca, repel = TRUE) # Make correspondence plot

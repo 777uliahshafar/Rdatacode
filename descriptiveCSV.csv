@@ -1,86 +1,86 @@
-﻿gender    ; suku     ; usia ; pekerjaan     ; ruang   ; aksesibilitas ; keamanan ; estetika ; fasilitas
-perempuan ; bugis    ; 26   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 24   ; wiraswasta    ; ruang a ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 25   ; pelajar       ; ruang a ; 1             ; 1        ; 0        ; 1
-laki-laki ; bugis    ; 55   ; lainnya       ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 25   ; karyawan      ; ruang a ; 1             ; 1        ; 1        ; 1
-perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; toraja   ; 25   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 21   ; belum bekerja ; ruang a ; 1             ; 0        ; 0        ; 0
-laki-laki ; bugis    ; 23   ; belum bekerja ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 38   ; wiraswasta    ; ruang a ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 29   ; wiraswasta    ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 20   ; pelajar       ; ruang b ; 0             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
-perempuan ; makassar ; 32   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 47   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 30   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 46   ; lainnya       ; ruang b ; 1             ; 0        ; 1        ; 0
-laki-laki ; lainnya  ; 29   ; karyawan      ; ruang b ; 0             ; 0        ; 1        ; 1
-laki-laki ; lainnya  ; 20   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
-perempuan ; bugis    ; 44   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 42   ; lainnya       ; ruang b ; 1             ; 1        ; 1        ; 1
-perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 40   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 28   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 35   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 45   ; lainnya       ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; toraja   ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; makassar ; 33   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 20   ; belum bekerja ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 45   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 28   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; makassar ; 43   ; lainnya       ; ruang b ; 0             ; 0        ; 1        ; 0
-perempuan ; toraja   ; 18   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 35   ; karyawan      ; ruang b ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 1             ; 0        ; 0        ; 1
-laki-laki ; makassar ; 45   ; karyawan      ; ruang b ; 0             ; 1        ; 0        ; 1
-perempuan ; bugis    ; 28   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 23   ; belum bekerja ; ruang a ; 0             ; 1        ; 0        ; 1
-perempuan ; toraja   ; 47   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
-laki-laki ; bugis    ; 33   ; karyawan      ; ruang a ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 41   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; makassar ; 37   ; lainnya       ; ruang b ; 1             ; 0        ; 0        ; 1
-perempuan ; lainnya  ; 37   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
-perempuan ; bugis    ; 22   ; belum bekerja ; ruang a ; 0             ; 0        ; 1        ; 0
-perempuan ; makassar ; 46   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 34   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 25   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; makassar ; 19   ; pelajar       ; ruang b ; 1             ; 0        ; 0        ; 0
-perempuan ; bugis    ; 45   ; karyawan      ; ruang a ; 0             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 38   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 0
-laki-laki ; bugis    ; 40   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 40   ; lainnya       ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; lainnya  ; 36   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; lainnya  ; 20   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 18   ; pelajar       ; ruang a ; 1             ; 1        ; 1        ; 0
-laki-laki ; bugis    ; 44   ; karyawan      ; ruang a ; 1             ; 0        ; 1        ; 0
-perempuan ; toraja   ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 1        ; 0
-perempuan ; bugis    ; 24   ; belum bekerja ; ruang a ; 0             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 41   ; karyawan      ; ruang a ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 19   ; pelajar       ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 21   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 43   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 1
-perempuan ; lainnya  ; 31   ; karyawan      ; ruang b ; 1             ; 0        ; 0        ; 1
-laki-laki ; toraja   ; 45   ; lainnya       ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 40   ; lainnya       ; ruang a ; 1             ; 0        ; 1        ; 1
-laki-laki ; bugis    ; 32   ; karyawan      ; ruang a ; 0             ; 0        ; 1        ; 0
-perempuan ; toraja   ; 48   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; lainnya  ; 31   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; lainnya  ; 38   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 29   ; wiraswasta    ; ruang a ; 1             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 33   ; wiraswasta    ; ruang a ; 0             ; 0        ; 1        ; 0
-laki-laki ; bugis    ; 20   ; pelajar       ; ruang a ; 1             ; 1        ; 1        ; 0
-perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
-laki-laki ; toraja   ; 39   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
-laki-laki ; lainnya  ; 42   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 0
-perempuan ; bugis    ; 38   ; wiraswasta    ; ruang b ; 0             ; 0        ; 1        ; 1
-perempuan ; bugis    ; 21   ; pelajar       ; ruang a ; 1             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 43   ; lainnya       ; ruang a ; 1             ; 0        ; 0        ; 1
-perempuan ; bugis    ; 18   ; pelajar       ; ruang a ; 0             ; 0        ; 0        ; 0
-perempuan ; bugis    ; 38   ; karyawan      ; ruang b ; 0             ; 0        ; 0        ; 1
-laki-laki ; bugis    ; 29   ; wiraswasta    ; ruang b ; 1             ; 0        ; 0        ; 0
-laki-laki ; lainnya  ; 29   ; karyawan      ; ruang b ; 0             ; 0        ; 1        ; 1
+﻿gender    ; suku     ; usia ;pendidikan; pekerjaan     ; ruang   ; aksesibilitas ; keamanan ; estetika ; fasilitas ; jmlhphn ; bntukphn ; lbrjln ; permjln ; wrnabnga ; jniskrs ; tngkchy;ornele
+perempuan ; bugis    ;26;perguruan tinggi; karyawan      ; ruang a ;1;0;1;1;0;0;0;0;0;0;2;2
+laki-laki ; bugis    ;24;perguruan tinggi; wiraswasta    ; ruang a ;0;0;0;1;2;2;2;3;2;1;0;1
+laki-laki ; bugis    ;25;perguruan tinggi; pelajar       ; ruang a ;1;1;0;1;0;0;0;3;0;0;1;0
+laki-laki ; bugis    ;55;sma / sederajat; lainnya       ; ruang a ;0;0;1;1;2;2;2;3;0;1;2;2
+laki-laki ; bugis    ;25;perguruan tinggi; karyawan      ; ruang a ;1;1;1;1;0;0;2;0;0;0;0;0
+perempuan ; bugis    ;18;< sma / sederajat; pelajar       ; ruang a ;1;0;1;1;0;0;2;3;0;0;2;2
+laki-laki ; nonbugis ;25;perguruan tinggi; pelajar       ; ruang a ;1;0;0;1;0;0;2;3;0;0;2;0
+laki-laki ; bugis    ;21;sma / sederajat; belum bekerja ; ruang a ;1;0;0;0;0;2;2;0;0;0;2;2
+laki-laki ; bugis    ;23;< sma / sederajat; belum bekerja ; ruang a ;0;0;1;0;0;0;2;0;0;0;0;2
+laki-laki ; bugis    ;38;sma / sederajat; wiraswasta    ; ruang a ;0;0;0;1;0;0;2;1;0;0;1;0
+laki-laki ; bugis    ;29;sma / sederajat; wiraswasta    ; ruang b ;0;0;0;1;0;1;0;0;0;0;0;2
+laki-laki ; bugis    ;20;sma / sederajat; pelajar       ; ruang b ;0;0;1;0;0;0;1;1;0;0;1;0
+laki-laki ; bugis    ;19;sma / sederajat; pelajar       ; ruang b ;0;0;1;1;0;0;0;0;0;0;1;2
+laki-laki ; bugis    ;33;perguruan tinggi; wiraswasta    ; ruang a ;1;0;1;0;0;0;0;3;0;0;0;0
+perempuan ; nonbugis ;32;perguruan tinggi; wiraswasta    ; ruang a ;1;0;1;0;0;2;0;0;0;0;0;2
+laki-laki ; bugis    ;47;perguruan tinggi; wiraswasta    ; ruang a ;0;0;1;1;0;2;0;0;0;0;0;0
+laki-laki ; bugis    ;30;perguruan tinggi; karyawan      ; ruang a ;1;0;1;0;0;2;0;0;0;0;2;2
+laki-laki ; bugis    ;46;perguruan tinggi; lainnya       ; ruang b ;1;0;1;0;0;0;0;0;0;0;1;1
+laki-laki ; nonbugis ;29;sma / sederajat; karyawan      ; ruang b ;0;0;1;1;0;0;0;0;0;0;1;0
+laki-laki ; nonbugis ;20;sma / sederajat; pelajar       ; ruang a ;1;0;1;1;2;2;2;1;2;1;2;2
+perempuan ; bugis    ;44;perguruan tinggi; wiraswasta    ; ruang b ;1;0;0;1;0;2;0;0;0;0;0;0
+laki-laki ; bugis    ;42;perguruan tinggi; lainnya       ; ruang b ;1;1;1;1;0;1;0;0;0;0;0;0
+perempuan ; bugis    ;21;sma / sederajat; pelajar       ; ruang a ;0;0;0;1;0;2;0;0;0;0;0;0
+perempuan ; bugis    ;40;perguruan tinggi; wiraswasta    ; ruang a ;1;0;1;1;0;0;0;3;0;0;2;2
+laki-laki ; bugis    ;28;perguruan tinggi; karyawan      ; ruang a ;0;0;1;0;0;0;0;3;0;0;0;0
+laki-laki ; bugis    ;35;sma / sederajat; karyawan      ; ruang a ;0;0;1;1;1;2;2;1;2;1;2;0
+laki-laki ; bugis    ;45;perguruan tinggi; lainnya       ; ruang a ;1;0;1;0;0;0;2;3;0;0;2;2
+laki-laki ; nonbugis ;18;< sma / sederajat; pelajar       ; ruang a ;1;0;1;1;1;2;2;1;1;1;2;0
+laki-laki ; nonbugis ;33;sma / sederajat; karyawan      ; ruang a ;0;0;1;1;0;2;2;3;0;0;0;2
+laki-laki ; bugis    ;20;sma / sederajat; belum bekerja ; ruang a ;1;0;1;0;1;0;0;0;0;0;1;2
+laki-laki ; bugis    ;45;perguruan tinggi; karyawan      ; ruang b ;1;0;0;1;0;2;0;0;0;0;0;2
+laki-laki ; bugis    ;28;perguruan tinggi; karyawan      ; ruang a ;1;0;1;1;0;2;0;0;0;0;2;1
+laki-laki ; nonbugis ;43;< sma / sederajat; lainnya       ; ruang b ;0;0;1;0;0;2;2;0;0;0;1;2
+perempuan ; nonbugis ;18;< sma / sederajat; pelajar       ; ruang a ;1;0;1;0;0;0;0;0;0;0;2;2
+laki-laki ; bugis    ;35;sma / sederajat; karyawan      ; ruang b ;1;0;1;0;0;0;0;0;0;0;2;0
+laki-laki ; bugis    ;33;perguruan tinggi; wiraswasta    ; ruang b ;1;0;0;1;1;1;2;1;2;2;1;2
+laki-laki ; bugis    ;19;sma / sederajat; pelajar       ; ruang b ;1;0;0;1;0;0;2;3;0;0;2;2
+laki-laki ; nonbugis ;45;perguruan tinggi; karyawan      ; ruang b ;0;1;0;1;0;2;0;0;0;0;0;0
+perempuan ; bugis    ;28;sma / sederajat; karyawan      ; ruang a ;1;0;1;0;1;1;2;1;0;2;2;0
+laki-laki ; bugis    ;23;perguruan tinggi; belum bekerja ; ruang a ;0;1;0;1;1;0;0;0;0;0;0;2
+perempuan ; nonbugis ;47;perguruan tinggi; wiraswasta    ; ruang b ;1;0;0;0;1;1;0;0;0;2;1;0
+laki-laki ; bugis    ;33;perguruan tinggi; karyawan      ; ruang a ;1;0;0;1;2;2;0;0;0;0;2;1
+laki-laki ; bugis    ;41;sma / sederajat; karyawan      ; ruang a ;0;0;1;1;1;2;2;1;1;1;0;0
+laki-laki ; nonbugis ;37;perguruan tinggi; lainnya       ; ruang b ;1;0;0;1;0;0;1;0;0;0;0;2
+perempuan ; nonbugis ;37;perguruan tinggi; karyawan      ; ruang a ;1;0;1;0;0;2;0;0;0;0;2;2
+perempuan ; bugis    ;22;sma / sederajat; belum bekerja ; ruang a ;0;0;1;0;0;0;2;3;0;0;2;2
+perempuan ; nonbugis ;46;sma / sederajat; karyawan      ; ruang a ;0;0;1;1;0;0;2;0;0;0;2;2
+laki-laki ; bugis    ;34;perguruan tinggi; karyawan      ; ruang b ;0;0;0;1;0;0;1;0;0;0;0;2
+laki-laki ; bugis    ;25;perguruan tinggi; wiraswasta    ; ruang a ;0;0;1;0;0;0;1;0;0;0;0;2
+laki-laki ; nonbugis ;19;sma / sederajat; pelajar       ; ruang b ;1;0;0;0;0;0;1;0;0;0;2;0
+perempuan ; bugis    ;45;perguruan tinggi; karyawan      ; ruang a ;0;0;0;1;0;0;2;2;0;0;2;0
+perempuan ; bugis    ;38;perguruan tinggi; karyawan      ; ruang b ;1;0;0;0;0;0;1;0;0;0;2;2
+laki-laki ; bugis    ;40;perguruan tinggi; karyawan      ; ruang b ;1;0;0;1;0;0;0;0;0;0;1;0
+perempuan ; bugis    ;18;< sma / sederajat; pelajar       ; ruang a ;0;0;0;1;0;2;2;1;0;0;0;2
+perempuan ; bugis    ;40;sma / sederajat; lainnya       ; ruang a ;0;0;1;0;0;1;2;2;0;0;2;0
+laki-laki ; nonbugis ;36;sma / sederajat; karyawan      ; ruang a ;0;0;1;0;0;2;2;2;0;0;0;0
+laki-laki ; nonbugis ;20;sma / sederajat; pelajar       ; ruang a ;1;0;1;0;0;0;1;3;0;0;0;2
+laki-laki ; bugis    ;18;< sma / sederajat; pelajar       ; ruang a ;1;1;1;0;0;0;2;0;0;0;0;0
+laki-laki ; bugis    ;44;sma / sederajat; karyawan      ; ruang a ;1;0;1;0;2;2;2;0;0;0;2;2
+perempuan ; nonbugis ;21;sma / sederajat; pelajar       ; ruang a ;1;0;1;0;0;2;2;2;0;0;0;0
+perempuan ; bugis    ;24;perguruan tinggi; belum bekerja ; ruang a ;0;0;0;1;0;2;2;2;0;0;0;2
+perempuan ; bugis    ;41;perguruan tinggi; karyawan      ; ruang a ;1;0;0;1;0;0;1;2;0;0;2;1
+laki-laki ; bugis    ;19;sma / sederajat; pelajar       ; ruang b ;0;0;0;1;0;0;2;0;0;0;2;0
+laki-laki ; bugis    ;21;sma / sederajat; pelajar       ; ruang a ;0;0;0;1;0;2;2;0;0;0;2;2
+laki-laki ; bugis    ;43;perguruan tinggi; lainnya       ; ruang a ;1;0;0;1;0;0;2;2;0;0;2;2
+perempuan ; nonbugis ;31;perguruan tinggi; karyawan      ; ruang b ;1;0;0;1;0;2;2;2;0;0;0;2
+laki-laki ; nonbugis ;45;sma / sederajat; lainnya       ; ruang b ;0;0;0;1;2;0;0;0;0;0;0;2
+laki-laki ; bugis    ;40;perguruan tinggi; lainnya       ; ruang a ;1;0;1;1;2;2;0;0;0;0;2;1
+laki-laki ; bugis    ;32;sma / sederajat; karyawan      ; ruang a ;0;0;1;0;2;2;2;2;2;2;2;1
+perempuan ; nonbugis ;48;perguruan tinggi; karyawan      ; ruang b ;0;0;0;1;1;2;2;0;0;0;1;2
+laki-laki ; nonbugis ;31;< sma / sederajat; wiraswasta    ; ruang a ;0;0;1;0;0;2;2;2;0;0;0;2
+laki-laki ; nonbugis ;38;perguruan tinggi; karyawan      ; ruang b ;0;0;0;1;0;0;0;0;0;0;1;0
+perempuan ; bugis    ;29;perguruan tinggi; wiraswasta    ; ruang a ;1;0;1;0;0;2;2;0;0;0;2;0
+laki-laki ; bugis    ;33;sma / sederajat; wiraswasta    ; ruang a ;0;0;1;0;0;0;2;2;0;0;2;2
+laki-laki ; bugis    ;20;sma / sederajat; pelajar       ; ruang a ;1;1;1;0;0;0;2;0;0;0;0;0
+perempuan ; bugis    ;21;sma / sederajat; pelajar       ; ruang a ;1;0;0;1;0;0;0;0;0;0;1;2
+laki-laki ; nonbugis ;39;perguruan tinggi; wiraswasta    ; ruang b ;1;0;0;0;0;0;1;0;0;0;0;2
+laki-laki ; nonbugis ;42;perguruan tinggi; lainnya       ; ruang a ;1;0;0;0;2;2;2;2;2;2;2;2
+perempuan ; bugis    ;38;sma / sederajat; wiraswasta    ; ruang b ;0;0;1;1;0;0;0;0;0;0;1;1
+perempuan ; bugis    ;21;sma / sederajat; pelajar       ; ruang a ;1;0;0;1;0;0;2;2;0;0;1;2
+laki-laki ; bugis    ;43;perguruan tinggi; lainnya       ; ruang a ;1;0;0;1;2;2;2;0;0;0;2;1
+perempuan ; bugis    ;18;< sma / sederajat; pelajar       ; ruang a ;0;0;0;0;2;2;0;0;0;0;2;1
+perempuan ; bugis    ;38;perguruan tinggi; karyawan      ; ruang b ;0;0;0;1;0;0;0;1;0;0;0;1
+laki-laki ; bugis    ;29;perguruan tinggi; wiraswasta    ; ruang b ;1;0;0;0;0;0;2;1;0;0;2;2
+laki-laki ; nonbugis ;29;perguruan tinggi; karyawan      ; ruang b ;0;0;1;1;0;0;0;0;0;0;0;2

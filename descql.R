@@ -15,6 +15,8 @@ df$pekerjaan <- as.factor(df$pekerjaan)
 df$ruang <- as.factor(df$ruang)
 library(ggplot2)
 
+df$pendidikan
+table(df$pendidikan)
 
 
 # gruped bar with percentage label
