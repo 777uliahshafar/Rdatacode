@@ -9,6 +9,20 @@ head(df$y1)
 class(df$Pekerjaan)
 class(df$Usia)
 
+# table for article tesis responden freq
+library(dplyr)
+## breakdown age group
+df$usia <- cut(df$usia, breaks = c(15, 25, 40, 80), labels = c("18-25", "26-40", "> 41"), right = T)
+
+g <- df %>%
+  group_by(suku) %>%
+  summarise(cnt = n()) %>%
+  mutate(freq = round(cnt / sum(cnt), 2)) %>%
+  arrange(desc(freq))
+
+head(as.data.frame(g))
+
+
 spr <- split(df, df$suku)
 str(spr)
 df$pekerjaan <- as.factor(df$pekerjaan)
