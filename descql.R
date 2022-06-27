@@ -316,6 +316,7 @@ ggplot(
 
 df$ruang <- as.factor(df$ruang)
 
+table(df$ruang)
 
 
 plotdata <- df %>%
